@@ -8,7 +8,11 @@ from xml.etree import ElementTree as  ET
 from xml.etree.ElementTree import Element
 from zipfile import ZipFile
 
-from . import config
+config = {'logName': __name__,
+          'logLevel': None,
+          'logFormat': '%(asctime)s %(levelname)-8s: %(message)s',
+          'showTopicId': True,
+          'hideEmptyValue': False}
 
 cache = {}
 content_xml = "content.xml"

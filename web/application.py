@@ -8,8 +8,8 @@ import arrow
 from flask import Flask, request, send_from_directory, g, render_template, abort, redirect, url_for
 from werkzeug.utils import secure_filename
 
-from main import xmind_to_suite, xmind_to_testlink
-from sharedparser import flat_suite
+from web.main import xmind_to_suite, xmind_to_testlink
+from web.sharedparser import flat_suite
 
 UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = ['xmind']
