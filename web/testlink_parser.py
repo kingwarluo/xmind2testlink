@@ -10,7 +10,7 @@ from xml.etree import ElementTree
 from xml.etree.ElementTree import Element, SubElement, Comment
 from xml.sax.saxutils import escape
 
-from .datatype import *
+from datatype import *
 
 
 class Tags():

@@ -15,8 +15,8 @@ Example:
 import json
 import sys
 
-from xmind2testlink.testlink_parser import to_testlink_xml_file
-from xmind2testlink.xmind_parser import xmind_to_suite, xmind_to_flat_dict
+from testlink_parser import to_testlink_xml_file
+from xmind_parser import xmind_to_suite, xmind_to_flat_dict
 
 
 def xmind_to_testlink(xmind):

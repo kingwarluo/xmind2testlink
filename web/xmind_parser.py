@@ -2,8 +2,8 @@
 Module to parse xmind file into test suite and test case objects.
 """
 
-from . import sharedparser as __
-from .datatype import *
+import sharedparser as __
+from datatype import *
 
 
 def xmind_to_flat_dict(xmind_file):

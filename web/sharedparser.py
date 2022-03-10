@@ -1,4 +1,4 @@
-from .datatype import *
+from datatype import *
 
 _config = {'sep': ' ',
            'suite_identity': 'symbol-plus',
