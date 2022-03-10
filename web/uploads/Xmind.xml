@@ -1,0 +1,362 @@
+<?xml version="1.0" ?>
+<testsuite name="">
+	<testsuite name="分支主题 3">
+		<testsuite name="分支主题 3">
+			<testsuite name="车辆详情页">
+				<testcase name="验证车辆详情页，增加加盟合作入口">
+					<summary>
+						<!-- -->
+						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>3</importance>
+					<steps>
+						<step>
+							<actions>
+								<!-- -->
+<![CDATA[进入车辆详情页，查看]]>								<!-- -->
+							</actions>
+							<expectedresults>
+								<!-- -->
+<![CDATA[车辆详情页增加加盟合作入口]]>								<!-- -->
+							</expectedresults>
+							<execution_type>
+								<!-- -->
+								<!-- -->
+							</execution_type>
+							<step_number>1</step_number>
+						</step>
+					</steps>
+					<custom_fields>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[Jira需求]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[http://jira.10101111.com/browse/NEWMMCXQ-482]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例编写者]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[行文贤]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[ios android]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[对应开发]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[章杰]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[浏览器兼容性]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[Ichrome]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[关键字]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[1.0 一期<br />
+NEWMMCXQ-482/483<br />
+二手车经销商留资]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例级别]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[1]]>								<!-- -->
+							</value>
+						</custom_field>
+					</custom_fields>
+					<keywords>
+						<keyword name="1.0 一期
+NEWMMCXQ-482/483
+二手车经销商留资"/>
+						<notes>
+							<!-- -->
+<![CDATA[1.0 一期<br />
+NEWMMCXQ-482/483<br />
+二手车经销商留资]]>							<!-- -->
+						</notes>
+					</keywords>
+				</testcase>
+			</testsuite>
+		</testsuite>
+	</testsuite>
+	<testsuite name="加盟合作">
+		<testcase name="验证加盟合作页增加加盟合作推广">
+			<summary>
+				<!-- -->
+				<!-- -->
+			</summary>
+			<preconditions>
+				<!-- -->
+				<!-- -->
+			</preconditions>
+			<execution_type>
+				<!-- -->
+				<!-- -->
+			</execution_type>
+			<importance>3</importance>
+			<steps>
+				<step>
+					<actions>
+						<!-- -->
+<![CDATA[进入加盟合作页面，查看]]>						<!-- -->
+					</actions>
+					<expectedresults>
+						<!-- -->
+<![CDATA[显示加盟商平台的推广（由运营配置）]]>						<!-- -->
+					</expectedresults>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<step_number>1</step_number>
+				</step>
+			</steps>
+			<custom_fields>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[Jira需求]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[http://jira.10101111.com/browse/NEWMMCXQ-482]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[用例编写者]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[行文贤]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[ios android]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[对应开发]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[章杰]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[浏览器兼容性]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[Ichrome]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[关键字]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[1.0 一期<br />
+NEWMMCXQ-482/483<br />
+二手车经销商留资]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[用例级别]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[1]]>						<!-- -->
+					</value>
+				</custom_field>
+			</custom_fields>
+			<keywords>
+				<keyword name="1.0 一期
+NEWMMCXQ-482/483
+二手车经销商留资"/>
+				<notes>
+					<!-- -->
+<![CDATA[1.0 一期<br />
+NEWMMCXQ-482/483<br />
+二手车经销商留资]]>					<!-- -->
+				</notes>
+			</keywords>
+		</testcase>
+		<testcase name="验证后台配置加盟商推广，前端能对应展示正确">
+			<summary>
+				<!-- -->
+				<!-- -->
+			</summary>
+			<preconditions>
+				<!-- -->
+				<!-- -->
+			</preconditions>
+			<execution_type>
+				<!-- -->
+				<!-- -->
+			</execution_type>
+			<importance>2</importance>
+			<steps>
+				<step>
+					<actions>
+						<!-- -->
+<![CDATA[后台加盟商平台修改H5页面的内容，查看]]>						<!-- -->
+					</actions>
+					<expectedresults>
+						<!-- -->
+<![CDATA[小程序加盟留咨页面显示内容会对应变化]]>						<!-- -->
+					</expectedresults>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<step_number>1</step_number>
+				</step>
+			</steps>
+			<custom_fields>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[Jira需求]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[http://jira.10101111.com/browse/NEWMMCXQ-482]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[用例编写者]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[行文贤]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[ios android]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[对应开发]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[章杰]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[浏览器兼容性]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[Ichrome]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[关键字]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[1.0 一期<br />
+NEWMMCXQ-482/483<br />
+二手车经销商留资]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[用例级别]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[2]]>						<!-- -->
+					</value>
+				</custom_field>
+			</custom_fields>
+			<keywords>
+				<keyword name="1.0 一期
+NEWMMCXQ-482/483
+二手车经销商留资"/>
+				<notes>
+					<!-- -->
+<![CDATA[1.0 一期<br />
+NEWMMCXQ-482/483<br />
+二手车经销商留资]]>					<!-- -->
+				</notes>
+			</keywords>
+		</testcase>
+	</testsuite>
+</testsuite>

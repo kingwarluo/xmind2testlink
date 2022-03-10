@@ -1,0 +1,1049 @@
+<?xml version="1.0" ?>
+<testsuite name="">
+	<testsuite name="页面交互">
+		<details>
+			<!-- -->
+<![CDATA[页面交互备注]]>			<!-- -->
+		</details>
+		<testsuite name="页面交互1级">
+			<details>
+				<!-- -->
+<![CDATA[子主题6测试备注]]>				<!-- -->
+			</details>
+			<testsuite name="页面交互2级">
+				<testcase name="验证页面排版与UI是否一致">
+					<summary>
+						<!-- -->
+<![CDATA[验证页面的排版工作]]>						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>2</importance>
+					<steps>
+						<step>
+							<actions>
+								<!-- -->
+<![CDATA[输入正确用户名1]]>								<!-- -->
+							</actions>
+							<expectedresults>
+								<!-- -->
+<![CDATA[用户名能被输入1]]>								<!-- -->
+							</expectedresults>
+							<execution_type>
+								<!-- -->
+								<!-- -->
+							</execution_type>
+							<step_number>1</step_number>
+						</step>
+						<step>
+							<actions>
+								<!-- -->
+<![CDATA[输入正确密码1]]>								<!-- -->
+							</actions>
+							<expectedresults>
+								<!-- -->
+<![CDATA[密码能被输入1]]>								<!-- -->
+							</expectedresults>
+							<execution_type>
+								<!-- -->
+								<!-- -->
+							</execution_type>
+							<step_number>2</step_number>
+						</step>
+						<step>
+							<actions>
+								<!-- -->
+<![CDATA[点提交按钮1]]>								<!-- -->
+							</actions>
+							<expectedresults>
+								<!-- -->
+<![CDATA[按钮能正常反应并提交1]]>								<!-- -->
+							</expectedresults>
+							<execution_type>
+								<!-- -->
+								<!-- -->
+							</execution_type>
+							<step_number>3</step_number>
+						</step>
+					</steps>
+					<custom_fields>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[Jira需求]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[http://jira.10101111.com/browse/DSXQ-654]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例编写者]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[马伟龙]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[无]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[对应开发]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[XXX]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[浏览器兼容性]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[chrome]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[关键字]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[2.0.5期|DSXQ-654|购车协议模板调整-pc]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例级别]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[3]]>								<!-- -->
+							</value>
+						</custom_field>
+					</custom_fields>
+					<keywords>
+						<keyword name="2.0.5期"/>
+						<notes>
+							<!-- -->
+<![CDATA[2.0.5期]]>							<!-- -->
+						</notes>
+						<keyword name="DSXQ-654"/>
+						<notes>
+							<!-- -->
+<![CDATA[DSXQ-654]]>							<!-- -->
+						</notes>
+						<keyword name="购车协议模板调整-pc"/>
+						<notes>
+							<!-- -->
+<![CDATA[购车协议模板调整-pc]]>							<!-- -->
+						</notes>
+					</keywords>
+				</testcase>
+				<testcase name="验证首次进入首页，默认为工作台页面">
+					<summary>
+						<!-- -->
+						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>2</importance>
+					<custom_fields>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[Jira需求]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[http://jira.10101111.com/browse/DSXQ-654]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例编写者]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[马伟龙]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[无]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[对应开发]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[XXX]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[浏览器兼容性]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[chrome]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[关键字]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[2.0.5期|DSXQ-654|购车协议模板调整-pc]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例级别]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[3]]>								<!-- -->
+							</value>
+						</custom_field>
+					</custom_fields>
+					<keywords>
+						<keyword name="2.0.5期"/>
+						<notes>
+							<!-- -->
+<![CDATA[2.0.5期]]>							<!-- -->
+						</notes>
+						<keyword name="DSXQ-654"/>
+						<notes>
+							<!-- -->
+<![CDATA[DSXQ-654]]>							<!-- -->
+						</notes>
+						<keyword name="购车协议模板调整-pc"/>
+						<notes>
+							<!-- -->
+<![CDATA[购车协议模板调整-pc]]>							<!-- -->
+						</notes>
+					</keywords>
+				</testcase>
+				<testcase name="验证Tab页切换正常">
+					<summary>
+						<!-- -->
+						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>2</importance>
+					<custom_fields>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[Jira需求]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[http://jira.10101111.com/browse/DSXQ-654]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例编写者]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[马伟龙]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[无]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[对应开发]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[XXX]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[浏览器兼容性]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[chrome]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[关键字]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[2.0.5期|DSXQ-654|购车协议模板调整-pc]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例级别]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[3]]>								<!-- -->
+							</value>
+						</custom_field>
+					</custom_fields>
+					<keywords>
+						<keyword name="2.0.5期"/>
+						<notes>
+							<!-- -->
+<![CDATA[2.0.5期]]>							<!-- -->
+						</notes>
+						<keyword name="DSXQ-654"/>
+						<notes>
+							<!-- -->
+<![CDATA[DSXQ-654]]>							<!-- -->
+						</notes>
+						<keyword name="购车协议模板调整-pc"/>
+						<notes>
+							<!-- -->
+<![CDATA[购车协议模板调整-pc]]>							<!-- -->
+						</notes>
+					</keywords>
+				</testcase>
+				<testcase name="验证切换到非首页页面后再返回首页，首页的Tab页定位保持不变">
+					<summary>
+						<!-- -->
+						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>2</importance>
+					<custom_fields>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[Jira需求]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[http://jira.10101111.com/browse/DSXQ-654]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例编写者]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[马伟龙]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[无]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[对应开发]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[XXX]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[浏览器兼容性]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[chrome]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[关键字]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[2.0.5期|DSXQ-654|购车协议模板调整-pc]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例级别]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[3]]>								<!-- -->
+							</value>
+						</custom_field>
+					</custom_fields>
+					<keywords>
+						<keyword name="2.0.5期"/>
+						<notes>
+							<!-- -->
+<![CDATA[2.0.5期]]>							<!-- -->
+						</notes>
+						<keyword name="DSXQ-654"/>
+						<notes>
+							<!-- -->
+<![CDATA[DSXQ-654]]>							<!-- -->
+						</notes>
+						<keyword name="购车协议模板调整-pc"/>
+						<notes>
+							<!-- -->
+<![CDATA[购车协议模板调整-pc]]>							<!-- -->
+						</notes>
+					</keywords>
+				</testcase>
+				<testcase name="验证点击'当前项目'，是否进入项目选择页面">
+					<summary>
+						<!-- -->
+						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>2</importance>
+					<custom_fields>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[Jira需求]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[http://jira.10101111.com/browse/DSXQ-654]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例编写者]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[马伟龙]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[无]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[对应开发]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[XXX]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[浏览器兼容性]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[chrome]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[关键字]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[2.0.5期|DSXQ-654|购车协议模板调整-pc]]>								<!-- -->
+							</value>
+						</custom_field>
+						<custom_field>
+							<name>
+								<!-- -->
+<![CDATA[用例级别]]>								<!-- -->
+							</name>
+							<value>
+								<!-- -->
+<![CDATA[2]]>								<!-- -->
+							</value>
+						</custom_field>
+					</custom_fields>
+					<keywords>
+						<keyword name="2.0.5期"/>
+						<notes>
+							<!-- -->
+<![CDATA[2.0.5期]]>							<!-- -->
+						</notes>
+						<keyword name="DSXQ-654"/>
+						<notes>
+							<!-- -->
+<![CDATA[DSXQ-654]]>							<!-- -->
+						</notes>
+						<keyword name="购车协议模板调整-pc"/>
+						<notes>
+							<!-- -->
+<![CDATA[购车协议模板调整-pc]]>							<!-- -->
+						</notes>
+					</keywords>
+				</testcase>
+			</testsuite>
+		</testsuite>
+		<testsuite name="页面交互分支">
+			<testcase name="页面交互分支2级 - 验证Tab页切换正常">
+				<summary>
+					<!-- -->
+					<!-- -->
+				</summary>
+				<preconditions>
+					<!-- -->
+					<!-- -->
+				</preconditions>
+				<execution_type>
+					<!-- -->
+					<!-- -->
+				</execution_type>
+				<importance>2</importance>
+				<steps>
+					<step>
+						<actions>
+							<!-- -->
+<![CDATA[输入正确用户名2]]>							<!-- -->
+						</actions>
+						<expectedresults>
+							<!-- -->
+<![CDATA[用户名能被输入2]]>							<!-- -->
+						</expectedresults>
+						<execution_type>
+							<!-- -->
+							<!-- -->
+						</execution_type>
+						<step_number>1</step_number>
+					</step>
+					<step>
+						<actions>
+							<!-- -->
+<![CDATA[输入正确密码2]]>							<!-- -->
+						</actions>
+						<expectedresults>
+							<!-- -->
+<![CDATA[密码能被输入2]]>							<!-- -->
+						</expectedresults>
+						<execution_type>
+							<!-- -->
+							<!-- -->
+						</execution_type>
+						<step_number>2</step_number>
+					</step>
+					<step>
+						<actions>
+							<!-- -->
+<![CDATA[点提交按钮2]]>							<!-- -->
+						</actions>
+						<expectedresults>
+							<!-- -->
+<![CDATA[按钮能正常反应并提交2]]>							<!-- -->
+						</expectedresults>
+						<execution_type>
+							<!-- -->
+							<!-- -->
+						</execution_type>
+						<step_number>3</step_number>
+					</step>
+				</steps>
+				<custom_fields>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[Jira需求]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[http://jira.10101111.com/browse/DSXQ-654]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[用例编写者]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[马伟龙]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[无]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[对应开发]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[XXX]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[浏览器兼容性]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[chrome]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[关键字]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[2.0.5期|DSXQ-654|购车协议模板调整-pc]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[用例级别]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[3]]>							<!-- -->
+						</value>
+					</custom_field>
+				</custom_fields>
+				<keywords>
+					<keyword name="2.0.5期"/>
+					<notes>
+						<!-- -->
+<![CDATA[2.0.5期]]>						<!-- -->
+					</notes>
+					<keyword name="DSXQ-654"/>
+					<notes>
+						<!-- -->
+<![CDATA[DSXQ-654]]>						<!-- -->
+					</notes>
+					<keyword name="购车协议模板调整-pc"/>
+					<notes>
+						<!-- -->
+<![CDATA[购车协议模板调整-pc]]>						<!-- -->
+					</notes>
+				</keywords>
+			</testcase>
+			<testcase name="页面交互分支2级 - 验证切换到非首页页面后再返回首页，首页的Tab页定位保持不变">
+				<summary>
+					<!-- -->
+					<!-- -->
+				</summary>
+				<preconditions>
+					<!-- -->
+					<!-- -->
+				</preconditions>
+				<execution_type>
+					<!-- -->
+					<!-- -->
+				</execution_type>
+				<importance>2</importance>
+				<custom_fields>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[Jira需求]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[http://jira.10101111.com/browse/DSXQ-654]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[用例编写者]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[马伟龙]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[无]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[对应开发]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[XXX]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[浏览器兼容性]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[chrome]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[关键字]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[2.0.5期|DSXQ-654|购车协议模板调整-pc]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[用例级别]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[3]]>							<!-- -->
+						</value>
+					</custom_field>
+				</custom_fields>
+				<keywords>
+					<keyword name="2.0.5期"/>
+					<notes>
+						<!-- -->
+<![CDATA[2.0.5期]]>						<!-- -->
+					</notes>
+					<keyword name="DSXQ-654"/>
+					<notes>
+						<!-- -->
+<![CDATA[DSXQ-654]]>						<!-- -->
+					</notes>
+					<keyword name="购车协议模板调整-pc"/>
+					<notes>
+						<!-- -->
+<![CDATA[购车协议模板调整-pc]]>						<!-- -->
+					</notes>
+				</keywords>
+			</testcase>
+			<testcase name="页面交互分支2级 - 验证点击'当前项目'，是否进入项目选择页面">
+				<summary>
+					<!-- -->
+					<!-- -->
+				</summary>
+				<preconditions>
+					<!-- -->
+					<!-- -->
+				</preconditions>
+				<execution_type>
+					<!-- -->
+					<!-- -->
+				</execution_type>
+				<importance>2</importance>
+				<custom_fields>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[Jira需求]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[http://jira.10101111.com/browse/DSXQ-654]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[用例编写者]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[马伟龙]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[无]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[对应开发]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[XXX]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[浏览器兼容性]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[chrome]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[关键字]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[2.0.5期|DSXQ-654|购车协议模板调整-pc]]>							<!-- -->
+						</value>
+					</custom_field>
+					<custom_field>
+						<name>
+							<!-- -->
+<![CDATA[用例级别]]>							<!-- -->
+						</name>
+						<value>
+							<!-- -->
+<![CDATA[2]]>							<!-- -->
+						</value>
+					</custom_field>
+				</custom_fields>
+				<keywords>
+					<keyword name="2.0.5期"/>
+					<notes>
+						<!-- -->
+<![CDATA[2.0.5期]]>						<!-- -->
+					</notes>
+					<keyword name="DSXQ-654"/>
+					<notes>
+						<!-- -->
+<![CDATA[DSXQ-654]]>						<!-- -->
+					</notes>
+					<keyword name="购车协议模板调整-pc"/>
+					<notes>
+						<!-- -->
+<![CDATA[购车协议模板调整-pc]]>						<!-- -->
+					</notes>
+				</keywords>
+			</testcase>
+		</testsuite>
+		<testcase name="用例">
+			<summary>
+				<!-- -->
+				<!-- -->
+			</summary>
+			<preconditions>
+				<!-- -->
+				<!-- -->
+			</preconditions>
+			<execution_type>
+				<!-- -->
+				<!-- -->
+			</execution_type>
+			<importance>2</importance>
+			<custom_fields>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[Jira需求]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[http://jira.10101111.com/browse/DSXQ-654]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[用例编写者]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[马伟龙]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[手机兼容性（型号、系统版本）]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[无]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[对应开发]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[XXX]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[浏览器兼容性]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[chrome]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[关键字]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[2.0.5期|DSXQ-654|购车协议模板调整-pc]]>						<!-- -->
+					</value>
+				</custom_field>
+				<custom_field>
+					<name>
+						<!-- -->
+<![CDATA[用例级别]]>						<!-- -->
+					</name>
+					<value>
+						<!-- -->
+<![CDATA[2]]>						<!-- -->
+					</value>
+				</custom_field>
+			</custom_fields>
+			<keywords>
+				<keyword name="2.0.5期"/>
+				<notes>
+					<!-- -->
+<![CDATA[2.0.5期]]>					<!-- -->
+				</notes>
+				<keyword name="DSXQ-654"/>
+				<notes>
+					<!-- -->
+<![CDATA[DSXQ-654]]>					<!-- -->
+				</notes>
+				<keyword name="购车协议模板调整-pc"/>
+				<notes>
+					<!-- -->
+<![CDATA[购车协议模板调整-pc]]>					<!-- -->
+				</notes>
+			</keywords>
+		</testcase>
+	</testsuite>
+</testsuite>
